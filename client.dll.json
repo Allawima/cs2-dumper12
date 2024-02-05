@@ -1,4 +1,1309 @@
-
+{
+  "ActiveModelConfig_t": {
+    "data": {
+      "m_AssociatedEntities": {
+        "value": 56,
+        "comment": "C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>"
+      },
+      "m_AssociatedEntityNames": {
+        "value": 80,
+        "comment": "C_NetworkUtlVectorBase<CUtlSymbolLarge>"
+      },
+      "m_Handle": {
+        "value": 40,
+        "comment": "ModelConfigHandle_t"
+      },
+      "m_Name": {
+        "value": 48,
+        "comment": "CUtlSymbolLarge"
+      }
+    },
+    "comment": null
+  },
+  "CAnimGraphNetworkedVariables": {
+    "data": {
+      "m_OwnerOnlyPredNetBoolVariables": {
+        "value": 224,
+        "comment": "C_NetworkUtlVectorBase<uint32_t>"
+      },
+      "m_OwnerOnlyPredNetByteVariables": {
+        "value": 248,
+        "comment": "C_NetworkUtlVectorBase<uint8_t>"
+      },
+      "m_OwnerOnlyPredNetFloatVariables": {
+        "value": 368,
+        "comment": "C_NetworkUtlVectorBase<float>"
+      },
+      "m_OwnerOnlyPredNetIntVariables": {
+        "value": 296,
+        "comment": "C_NetworkUtlVectorBase<int32_t>"
+      },
+      "m_OwnerOnlyPredNetQuaternionVariables": {
+        "value": 416,
+        "comment": "C_NetworkUtlVectorBase<Quaternion>"
+      },
+      "m_OwnerOnlyPredNetUInt16Variables": {
+        "value": 272,
+        "comment": "C_NetworkUtlVectorBase<uint16_t>"
+      },
+      "m_OwnerOnlyPredNetUInt32Variables": {
+        "value": 320,
+        "comment": "C_NetworkUtlVectorBase<uint32_t>"
+      },
+      "m_OwnerOnlyPredNetUInt64Variables": {
+        "value": 344,
+        "comment": "C_NetworkUtlVectorBase<uint64_t>"
+      },
+      "m_OwnerOnlyPredNetVectorVariables": {
+        "value": 392,
+        "comment": "C_NetworkUtlVectorBase<Vector>"
+      },
+      "m_PredNetBoolVariables": {
+        "value": 8,
+        "comment": "C_NetworkUtlVectorBase<uint32_t>"
+      },
+      "m_PredNetByteVariables": {
+        "value": 32,
+        "comment": "C_NetworkUtlVectorBase<uint8_t>"
+      },
+      "m_PredNetFloatVariables": {
+        "value": 152,
+        "comment": "C_NetworkUtlVectorBase<float>"
+      },
+      "m_PredNetIntVariables": {
+        "value": 80,
+        "comment": "C_NetworkUtlVectorBase<int32_t>"
+      },
+      "m_PredNetQuaternionVariables": {
+        "value": 200,
+        "comment": "C_NetworkUtlVectorBase<Quaternion>"
+      },
+      "m_PredNetUInt16Variables": {
+        "value": 56,
+        "comment": "C_NetworkUtlVectorBase<uint16_t>"
+      },
+      "m_PredNetUInt32Variables": {
+        "value": 104,
+        "comment": "C_NetworkUtlVectorBase<uint32_t>"
+      },
+      "m_PredNetUInt64Variables": {
+        "value": 128,
+        "comment": "C_NetworkUtlVectorBase<uint64_t>"
+      },
+      "m_PredNetVectorVariables": {
+        "value": 176,
+        "comment": "C_NetworkUtlVectorBase<Vector>"
+      },
+      "m_flLastTeleportTime": {
+        "value": 452,
+        "comment": "float"
+      },
+      "m_nBoolVariablesCount": {
+        "value": 440,
+        "comment": "int32_t"
+      },
+      "m_nOwnerOnlyBoolVariablesCount": {
+        "value": 444,
+        "comment": "int32_t"
+      },
+      "m_nRandomSeedOffset": {
+        "value": 448,
+        "comment": "int32_t"
+      }
+    },
+    "comment": null
+  },
+  "CAttributeList": {
+    "data": {
+      "m_Attributes": {
+        "value": 8,
+        "comment": "C_UtlVectorEmbeddedNetworkVar<CEconItemAttribute>"
+      },
+      "m_pManager": {
+        "value": 88,
+        "comment": "CAttributeManager*"
+      }
+    },
+    "comment": null
+  },
+  "CAttributeManager": {
+    "data": {
+      "m_CachedResults": {
+        "value": 48,
+        "comment": "CUtlVector<CAttributeManager::cached_attribute_float_t>"
+      },
+      "m_ProviderType": {
+        "value": 44,
+        "comment": "attributeprovidertypes_t"
+      },
+      "m_Providers": {
+        "value": 8,
+        "comment": "CUtlVector<CHandle<C_BaseEntity>>"
+      },
+      "m_bPreventLoopback": {
+        "value": 40,
+        "comment": "bool"
+      },
+      "m_hOuter": {
+        "value": 36,
+        "comment": "CHandle<C_BaseEntity>"
+      },
+      "m_iReapplyProvisionParity": {
+        "value": 32,
+        "comment": "int32_t"
+      }
+    },
+    "comment": null
+  },
+  "CAttributeManager_cached_attribute_float_t": {
+    "data": {
+      "flIn": {
+        "value": 0,
+        "comment": "float"
+      },
+      "flOut": {
+        "value": 16,
+        "comment": "float"
+      },
+      "iAttribHook": {
+        "value": 8,
+        "comment": "CUtlSymbolLarge"
+      }
+    },
+    "comment": null
+  },
+  "CBaseAnimGraph": {
+    "data": {
+      "m_bAnimGraphUpdateEnabled": {
+        "value": 3280,
+        "comment": "bool"
+      },
+      "m_bBuiltRagdoll": {
+        "value": 3328,
+        "comment": "bool"
+      },
+      "m_bClientRagdoll": {
+        "value": 3360,
+        "comment": "bool"
+      },
+      "m_bHasAnimatedMaterialAttributes": {
+        "value": 3376,
+        "comment": "bool"
+      },
+      "m_bInitiallyPopulateInterpHistory": {
+        "value": 3264,
+        "comment": "bool"
+      },
+      "m_bShouldAnimateDuringGameplayPause": {
+        "value": 3265,
+        "comment": "bool"
+      },
+      "m_bSuppressAnimEventSounds": {
+        "value": 3267,
+        "comment": "bool"
+      },
+      "m_flMaxSlopeDistance": {
+        "value": 3284,
+        "comment": "float"
+      },
+      "m_nForceBone": {
+        "value": 3316,
+        "comment": "int32_t"
+      },
+      "m_pClientsideRagdoll": {
+        "value": 3320,
+        "comment": "CBaseAnimGraph*"
+      },
+      "m_pRagdollPose": {
+        "value": 3352,
+        "comment": "PhysicsRagdollPose_t*"
+      },
+      "m_vLastSlopeCheckPos": {
+        "value": 3288,
+        "comment": "Vector"
+      },
+      "m_vecForce": {
+        "value": 3304,
+        "comment": "Vector"
+      }
+    },
+    "comment": "C_BaseModelEntity"
+  },
+  "CBaseAnimGraphController": {
+    "data": {
+      "m_animGraphNetworkedVars": {
+        "value": 64,
+        "comment": "CAnimGraphNetworkedVariables"
+      },
+      "m_bClientSideAnimation": {
+        "value": 4920,
+        "comment": "bool"
+      },
+      "m_bNetworkedAnimationInputsChanged": {
+        "value": 4921,
+        "comment": "bool"
+      },
+      "m_bSequenceFinished": {
+        "value": 4896,
+        "comment": "bool"
+      },
+      "m_baseLayer": {
+        "value": 24,
+        "comment": "CNetworkedSequenceOperation"
+      },
+      "m_flLastEventAnimTime": {
+        "value": 4904,
+        "comment": "float"
+      },
+      "m_flLastEventCycle": {
+        "value": 4900,
+        "comment": "float"
+      },
+      "m_flPlaybackRate": {
+        "value": 4908,
+        "comment": "CNetworkedQuantizedFloat"
+      },
+      "m_flPrevAnimTime": {
+        "value": 4916,
+        "comment": "float"
+      },
+      "m_hAnimationUpdate": {
+        "value": 5092,
+        "comment": "AnimationUpdateListHandle_t"
+      },
+      "m_hLastAnimEventSequence": {
+        "value": 5096,
+        "comment": "HSequence"
+      },
+      "m_nAnimLoopMode": {
+        "value": 4932,
+        "comment": "AnimLoopMode_t"
+      },
+      "m_nNewSequenceParity": {
+        "value": 4924,
+        "comment": "int32_t"
+      },
+      "m_nPrevNewSequenceParity": {
+        "value": 4922,
+        "comment": "uint8_t"
+      },
+      "m_nPrevResetEventsParity": {
+        "value": 4923,
+        "comment": "uint8_t"
+      },
+      "m_nResetEventsParity": {
+        "value": 4928,
+        "comment": "int32_t"
+      }
+    },
+    "comment": "CSkeletonAnimationController"
+  },
+  "CBasePlayerController": {
+    "data": {
+      "m_CommandContext": {
+        "value": 1360,
+        "comment": "C_CommandContext"
+      },
+      "m_bIsHLTV": {
+        "value": 1592,
+        "comment": "bool"
+      },
+      "m_bIsLocalPlayerController": {
+        "value": 1744,
+        "comment": "bool"
+      },
+      "m_hPawn": {
+        "value": 1548,
+        "comment": "CHandle<C_BasePlayerPawn>"
+      },
+      "m_hPredictedPawn": {
+        "value": 1552,
+        "comment": "CHandle<C_BasePlayerPawn>"
+      },
+      "m_hSplitOwner": {
+        "value": 1560,
+        "comment": "CHandle<CBasePlayerController>"
+      },
+      "m_hSplitScreenPlayers": {
+        "value": 1568,
+        "comment": "CUtlVector<CHandle<CBasePlayerController>>"
+      },
+      "m_iConnected": {
+        "value": 1596,
+        "comment": "PlayerConnectedState"
+      },
+      "m_iDesiredFOV": {
+        "value": 1748,
+        "comment": "uint32_t"
+      },
+      "m_iszPlayerName": {
+        "value": 1600,
+        "comment": "char[128]"
+      },
+      "m_nFinalPredictedTick": {
+        "value": 1352,
+        "comment": "int32_t"
+      },
+      "m_nInButtonsWhichAreToggles": {
+        "value": 1536,
+        "comment": "uint64_t"
+      },
+      "m_nSplitScreenSlot": {
+        "value": 1556,
+        "comment": "CSplitScreenSlot"
+      },
+      "m_nTickBase": {
+        "value": 1544,
+        "comment": "uint32_t"
+      },
+      "m_steamID": {
+        "value": 1736,
+        "comment": "uint64_t"
+      }
+    },
+    "comment": "C_BaseEntity"
+  },
+  "CBasePlayerVData": {
+    "data": {
+      "m_flArmDamageMultiplier": {
+        "value": 312,
+        "comment": "CSkillFloat"
+      },
+      "m_flChestDamageMultiplier": {
+        "value": 280,
+        "comment": "CSkillFloat"
+      },
+      "m_flCrouchTime": {
+        "value": 372,
+        "comment": "float"
+      },
+      "m_flDrowningDamageInterval": {
+        "value": 348,
+        "comment": "float"
+      },
+      "m_flHeadDamageMultiplier": {
+        "value": 264,
+        "comment": "CSkillFloat"
+      },
+      "m_flHoldBreathTime": {
+        "value": 344,
+        "comment": "float"
+      },
+      "m_flLegDamageMultiplier": {
+        "value": 328,
+        "comment": "CSkillFloat"
+      },
+      "m_flStomachDamageMultiplier": {
+        "value": 296,
+        "comment": "CSkillFloat"
+      },
+      "m_flUseAngleTolerance": {
+        "value": 368,
+        "comment": "float"
+      },
+      "m_flUseRange": {
+        "value": 364,
+        "comment": "float"
+      },
+      "m_nDrowningDamageInitial": {
+        "value": 352,
+        "comment": "int32_t"
+      },
+      "m_nDrowningDamageMax": {
+        "value": 356,
+        "comment": "int32_t"
+      },
+      "m_nWaterSpeed": {
+        "value": 360,
+        "comment": "int32_t"
+      },
+      "m_sModelName": {
+        "value": 40,
+        "comment": "CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>"
+      }
+    },
+    "comment": "CEntitySubclassVDataBase"
+  },
+  "CBasePlayerWeaponVData": {
+    "data": {
+      "m_aShootSounds": {
+        "value": 536,
+        "comment": "CUtlMap<WeaponSound_t,CSoundEventName>"
+      },
+      "m_bAllowFlipping": {
+        "value": 265,
+        "comment": "bool"
+      },
+      "m_bAutoSwitchFrom": {
+        "value": 529,
+        "comment": "bool"
+      },
+      "m_bAutoSwitchTo": {
+        "value": 528,
+        "comment": "bool"
+      },
+      "m_bBuiltRightHanded": {
+        "value": 264,
+        "comment": "bool"
+      },
+      "m_bIsFullAuto": {
+        "value": 266,
+        "comment": "bool"
+      },
+      "m_iDefaultClip1": {
+        "value": 516,
+        "comment": "int32_t"
+      },
+      "m_iDefaultClip2": {
+        "value": 520,
+        "comment": "int32_t"
+      },
+      "m_iFlags": {
+        "value": 504,
+        "comment": "ItemFlagTypes_t"
+      },
+      "m_iMaxClip1": {
+        "value": 508,
+        "comment": "int32_t"
+      },
+      "m_iMaxClip2": {
+        "value": 512,
+        "comment": "int32_t"
+      },
+      "m_iPosition": {
+        "value": 572,
+        "comment": "int32_t"
+      },
+      "m_iRumbleEffect": {
+        "value": 532,
+        "comment": "RumbleEffect_t"
+      },
+      "m_iSlot": {
+        "value": 568,
+        "comment": "int32_t"
+      },
+      "m_iWeight": {
+        "value": 524,
+        "comment": "int32_t"
+      },
+      "m_nNumBullets": {
+        "value": 268,
+        "comment": "int32_t"
+      },
+      "m_nPrimaryAmmoType": {
+        "value": 505,
+        "comment": "AmmoIndex_t"
+      },
+      "m_nSecondaryAmmoType": {
+        "value": 506,
+        "comment": "AmmoIndex_t"
+      },
+      "m_sMuzzleAttachment": {
+        "value": 272,
+        "comment": "CUtlString"
+      },
+      "m_szMuzzleFlashParticle": {
+        "value": 280,
+        "comment": "CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>"
+      },
+      "m_szWorldModel": {
+        "value": 40,
+        "comment": "CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>"
+      }
+    },
+    "comment": "CEntitySubclassVDataBase"
+  },
+  "CBaseProp": {
+    "data": {
+      "m_bConformToCollisionBounds": {
+        "value": 3720,
+        "comment": "bool"
+      },
+      "m_bModelOverrodeBlockLOS": {
+        "value": 3712,
+        "comment": "bool"
+      },
+      "m_iShapeType": {
+        "value": 3716,
+        "comment": "int32_t"
+      },
+      "m_mPreferredCatchTransform": {
+        "value": 3724,
+        "comment": "matrix3x4_t"
+      }
+    },
+    "comment": "CBaseAnimGraph"
+  },
+  "CBodyComponent": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 32,
+        "comment": "CNetworkVarChainer"
+      },
+      "m_pSceneNode": {
+        "value": 8,
+        "comment": "CGameSceneNode*"
+      }
+    },
+    "comment": "CEntityComponent"
+  },
+  "CBodyComponentBaseAnimGraph": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 6336,
+        "comment": "CNetworkVarChainer"
+      },
+      "m_animationController": {
+        "value": 1152,
+        "comment": "CBaseAnimGraphController"
+      }
+    },
+    "comment": "CBodyComponentSkeletonInstance"
+  },
+  "CBodyComponentBaseModelEntity": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 1152,
+        "comment": "CNetworkVarChainer"
+      }
+    },
+    "comment": "CBodyComponentSkeletonInstance"
+  },
+  "CBodyComponentPoint": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 416,
+        "comment": "CNetworkVarChainer"
+      },
+      "m_sceneNode": {
+        "value": 80,
+        "comment": "CGameSceneNode"
+      }
+    },
+    "comment": "CBodyComponent"
+  },
+  "CBodyComponentSkeletonInstance": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 1104,
+        "comment": "CNetworkVarChainer"
+      },
+      "m_skeletonInstance": {
+        "value": 80,
+        "comment": "CSkeletonInstance"
+      }
+    },
+    "comment": "CBodyComponent"
+  },
+  "CBombTarget": {
+    "data": {
+      "m_bBombPlantedHere": {
+        "value": 3272,
+        "comment": "bool"
+      }
+    },
+    "comment": "C_BaseTrigger"
+  },
+  "CBreachCharge": {
+    "data": {},
+    "comment": "C_CSWeaponBase"
+  },
+  "CBreachChargeProjectile": {
+    "data": {},
+    "comment": "C_BaseGrenade"
+  },
+  "CBumpMine": {
+    "data": {},
+    "comment": "C_CSWeaponBase"
+  },
+  "CBumpMineProjectile": {
+    "data": {},
+    "comment": "C_BaseGrenade"
+  },
+  "CBuoyancyHelper": {
+    "data": {
+      "m_flFluidDensity": {
+        "value": 24,
+        "comment": "float"
+      }
+    },
+    "comment": null
+  },
+  "CCSGO_WingmanIntroCharacterPosition": {
+    "data": {},
+    "comment": "C_CSGO_TeamIntroCharacterPosition"
+  },
+  "CCSGO_WingmanIntroCounterTerroristPosition": {
+    "data": {},
+    "comment": "CCSGO_WingmanIntroCharacterPosition"
+  },
+  "CCSGO_WingmanIntroTerroristPosition": {
+    "data": {},
+    "comment": "CCSGO_WingmanIntroCharacterPosition"
+  },
+  "CCSGameModeRules": {
+    "data": {
+      "__m_pChainEntity": {
+        "value": 8,
+        "comment": "CNetworkVarChainer"
+      }
+    },
+    "comment": null
+  },
+  "CCSGameModeRules_Deathmatch": {
+    "data": {
+      "m_bFirstThink": {
+        "value": 48,
+        "comment": "bool"
+      },
+      "m_bFirstThinkAfterConnected": {
+        "value": 49,
+        "comment": "bool"
+      },
+      "m_flDMBonusStartTime": {
+        "value": 52,
+        "comment": "GameTime_t"
+      },
+      "m_flDMBonusTimeLength": {
+        "value": 56,
+        "comment": "float"
+      },
+      "m_nDMBonusWeaponLoadoutSlot": {
+        "value": 60,
+        "comment": "int16_t"
+      }
+    },
+    "comment": "CCSGameModeRules"
+  },
+  "CCSGameModeRules_Noop": {
+    "data": {},
+    "comment": "CCSGameModeRules"
+  },
+  "CCSGameModeRules_Scripted": {
+    "data": {},
+    "comment": "CCSGameModeRules"
+  },
+  "CCSGameModeScript": {
+    "data": {},
+    "comment": "CBasePulseGraphInstance"
+  },
+  "CCSObserver_CameraServices": {
+    "data": {},
+    "comment": "CCSPlayerBase_CameraServices"
+  },
+  "CCSObserver_MovementServices": {
+    "data": {},
+    "comment": "CPlayer_MovementServices"
+  },
+  "CCSObserver_ObserverServices": {
+    "data": {
+      "m_bObserverInterpolationNeedsDeferredSetup": {
+        "value": 164,
+        "comment": "bool"
+      },
+      "m_flObsInterp_PathLength": {
+        "value": 116,
+        "comment": "float"
+      },
+      "m_hLastObserverTarget": {
+        "value": 88,
+        "comment": "CEntityHandle"
+      },
+      "m_obsInterpState": {
+        "value": 160,
+        "comment": "ObserverInterpState_t"
+      },
+      "m_qObsInterp_OrientationStart": {
+        "value": 128,
+        "comment": "Quaternion"
+      },
+      "m_qObsInterp_OrientationTravelDir": {
+        "value": 144,
+        "comment": "Quaternion"
+      },
+      "m_vecObserverInterpStartPos": {
+        "value": 104,
+        "comment": "Vector"
+      },
+      "m_vecObserverInterpolateOffset": {
+        "value": 92,
+        "comment": "Vector"
+      }
+    },
+    "comment": "CPlayer_ObserverServices"
+  },
+  "CCSObserver_UseServices": {
+    "data": {},
+    "comment": "CPlayer_UseServices"
+  },
+  "CCSObserver_ViewModelServices": {
+    "data": {},
+    "comment": "CPlayer_ViewModelServices"
+  },
+  "CCSPlayerBase_CameraServices": {
+    "data": {
+      "m_flFOVRate": {
+        "value": 540,
+        "comment": "float"
+      },
+      "m_flFOVTime": {
+        "value": 536,
+        "comment": "GameTime_t"
+      },
+      "m_flLastShotFOV": {
+        "value": 548,
+        "comment": "float"
+      },
+      "m_hZoomOwner": {
+        "value": 544,
+        "comment": "CHandle<C_BaseEntity>"
+      },
+      "m_iFOV": {
+        "value": 528,
+        "comment": "uint32_t"
+      },
+      "m_iFOVStart": {
+        "value": 532,
+        "comment": "uint32_t"
+      }
+    },
+    "comment": "CPlayer_CameraServices"
+  },
+  "CCSPlayerController": {
+    "data": {
+      "m_bAbandonAllowsSurrender": {
+        "value": 1998,
+        "comment": "bool"
+      },
+      "m_bAbandonOffersInstantSurrender": {
+        "value": 1999,
+        "comment": "bool"
+      },
+      "m_bCanControlObservedBot": {
+        "value": 2024,
+        "comment": "bool"
+      },
+      "m_bCannotBeKicked": {
+        "value": 1996,
+        "comment": "bool"
+      },
+      "m_bControllingBot": {
+        "value": 2016,
+        "comment": "bool"
+      },
+      "m_bDisconnection1MinWarningPrinted": {
+        "value": 2000,
+        "comment": "bool"
+      },
+      "m_bEverFullyConnected": {
+        "value": 1997,
+        "comment": "bool"
+      },
+      "m_bEverPlayedOnTeam": {
+        "value": 1852,
+        "comment": "bool"
+      },
+      "m_bHasBeenControlledByPlayerThisRound": {
+        "value": 2018,
+        "comment": "bool"
+      },
+      "m_bHasCommunicationAbuseMute": {
+        "value": 1828,
+        "comment": "bool"
+      },
+      "m_bHasControlledBotThisRound": {
+        "value": 2017,
+        "comment": "bool"
+      },
+      "m_bIsPlayerNameDirty": {
+        "value": 2100,
+        "comment": "bool"
+      },
+      "m_bPawnHasDefuser": {
+        "value": 2048,
+        "comment": "bool"
+      },
+      "m_bPawnHasHelmet": {
+        "value": 2049,
+        "comment": "bool"
+      },
+      "m_bPawnIsAlive": {
+        "value": 2036,
+        "comment": "bool"
+      },
+      "m_bScoreReported": {
+        "value": 2001,
+        "comment": "bool"
+      },
+      "m_flForceTeamTime": {
+        "value": 1844,
+        "comment": "GameTime_t"
+      },
+      "m_flPreviousForceJoinTeamTime": {
+        "value": 1856,
+        "comment": "GameTime_t"
+      },
+      "m_hObserverPawn": {
+        "value": 2032,
+        "comment": "CHandle<C_CSObserverPawn>"
+      },
+      "m_hOriginalControllerOfCurrentPawn": {
+        "value": 2064,
+        "comment": "CHandle<CCSPlayerController>"
+      },
+      "m_hPlayerPawn": {
+        "value": 2028,
+        "comment": "CHandle<C_CSPlayerPawn>"
+      },
+      "m_iCoachingTeam": {
+        "value": 1880,
+        "comment": "int32_t"
+      },
+      "m_iCompTeammateColor": {
+        "value": 1848,
+        "comment": "int32_t"
+      },
+      "m_iCompetitiveRankType": {
+        "value": 1912,
+        "comment": "int8_t"
+      },
+      "m_iCompetitiveRanking": {
+        "value": 1904,
+        "comment": "int32_t"
+      },
+      "m_iCompetitiveRankingPredicted_Loss": {
+        "value": 1920,
+        "comment": "int32_t"
+      },
+      "m_iCompetitiveRankingPredicted_Tie": {
+        "value": 1924,
+        "comment": "int32_t"
+      },
+      "m_iCompetitiveRankingPredicted_Win": {
+        "value": 1916,
+        "comment": "int32_t"
+      },
+      "m_iCompetitiveWins": {
+        "value": 1908,
+        "comment": "int32_t"
+      },
+      "m_iDraftIndex": {
+        "value": 1984,
+        "comment": "int32_t"
+      },
+      "m_iMVPs": {
+        "value": 2096,
+        "comment": "int32_t"
+      },
+      "m_iPawnArmor": {
+        "value": 2044,
+        "comment": "int32_t"
+      },
+      "m_iPawnBotDifficulty": {
+        "value": 2060,
+        "comment": "int32_t"
+      },
+      "m_iPawnHealth": {
+        "value": 2040,
+        "comment": "uint32_t"
+      },
+      "m_iPawnLifetimeEnd": {
+        "value": 2056,
+        "comment": "int32_t"
+      },
+      "m_iPawnLifetimeStart": {
+        "value": 2052,
+        "comment": "int32_t"
+      },
+      "m_iPendingTeamNum": {
+        "value": 1840,
+        "comment": "uint8_t"
+      },
+      "m_iPing": {
+        "value": 1824,
+        "comment": "uint32_t"
+      },
+      "m_iScore": {
+        "value": 2068,
+        "comment": "int32_t"
+      },
+      "m_msQueuedModeDisconnectionTimestamp": {
+        "value": 1988,
+        "comment": "uint32_t"
+      },
+      "m_nBotsControlledThisRound": {
+        "value": 2020,
+        "comment": "int32_t"
+      },
+      "m_nDisconnectionTick": {
+        "value": 2004,
+        "comment": "int32_t"
+      },
+      "m_nEndMatchNextMapVote": {
+        "value": 1928,
+        "comment": "int32_t"
+      },
+      "m_nPawnCharacterDefIndex": {
+        "value": 2050,
+        "comment": "uint16_t"
+      },
+      "m_nPlayerDominated": {
+        "value": 1888,
+        "comment": "uint64_t"
+      },
+      "m_nPlayerDominatingMe": {
+        "value": 1896,
+        "comment": "uint64_t"
+      },
+      "m_nQuestProgressReason": {
+        "value": 1936,
+        "comment": "QuestProgress::Reason"
+      },
+      "m_pActionTrackingServices": {
+        "value": 1808,
+        "comment": "CCSPlayerController_ActionTrackingServices*"
+      },
+      "m_pDamageServices": {
+        "value": 1816,
+        "comment": "CCSPlayerController_DamageServices*"
+      },
+      "m_pInGameMoneyServices": {
+        "value": 1792,
+        "comment": "CCSPlayerController_InGameMoneyServices*"
+      },
+      "m_pInventoryServices": {
+        "value": 1800,
+        "comment": "CCSPlayerController_InventoryServices*"
+      },
+      "m_sSanitizedPlayerName": {
+        "value": 1872,
+        "comment": "CUtlString"
+      },
+      "m_szClan": {
+        "value": 1864,
+        "comment": "CUtlSymbolLarge"
+      },
+      "m_szCrosshairCodes": {
+        "value": 1832,
+        "comment": "CUtlSymbolLarge"
+      },
+      "m_uiAbandonRecordedReason": {
+        "value": 1992,
+        "comment": "uint32_t"
+      },
+      "m_unActiveQuestId": {
+        "value": 1932,
+        "comment": "uint16_t"
+      },
+      "m_unPlayerTvControlFlags": {
+        "value": 1940,
+        "comment": "uint32_t"
+      },
+      "m_vecKills": {
+        "value": 2072,
+        "comment": "C_NetworkUtlVectorBase<EKillTypes_t>"
+      }
+    },
+    "comment": "CBasePlayerController"
+  },
+  "CCSPlayerController_ActionTrackingServices": {
+    "data": {
+      "m_iNumRoundKills": {
+        "value": 264,
+        "comment": "int32_t"
+      },
+      "m_iNumRoundKillsHeadshots": {
+        "value": 268,
+        "comment": "int32_t"
+      },
+      "m_matchStats": {
+        "value": 144,
+        "comment": "CSMatchStats_t"
+      },
+      "m_perRoundStats": {
+        "value": 64,
+        "comment": "C_UtlVectorEmbeddedNetworkVar<CSPerRoundStats_t>"
+      },
+      "m_unTotalRoundDamageDealt": {
+        "value": 272,
+        "comment": "uint32_t"
+      }
+    },
+    "comment": "CPlayerControllerComponent"
+  },
+  "CCSPlayerController_DamageServices": {
+    "data": {
+      "m_DamageList": {
+        "value": 72,
+        "comment": "C_UtlVectorEmbeddedNetworkVar<CDamageRecord>"
+      },
+      "m_nSendUpdate": {
+        "value": 64,
+        "comment": "int32_t"
+      }
+    },
+    "comment": "CPlayerControllerComponent"
+  },
+  "CCSPlayerController_InGameMoneyServices": {
+    "data": {
+      "m_iAccount": {
+        "value": 64,
+        "comment": "int32_t"
+      },
+      "m_iCashSpentThisRound": {
+        "value": 76,
+        "comment": "int32_t"
+      },
+      "m_iStartAccount": {
+        "value": 68,
+        "comment": "int32_t"
+      },
+      "m_iTotalCashSpent": {
+        "value": 72,
+        "comment": "int32_t"
+      },
+      "m_nPreviousAccount": {
+        "value": 80,
+        "comment": "int32_t"
+      }
+    },
+    "comment": "CPlayerControllerComponent"
+  },
+  "CCSPlayerController_InventoryServices": {
+    "data": {
+      "m_nPersonaDataPublicCommendsFriendly": {
+        "value": 104,
+        "comment": "int32_t"
+      },
+      "m_nPersonaDataPublicCommendsLeader": {
+        "value": 96,
+        "comment": "int32_t"
+      },
+      "m_nPersonaDataPublicCommendsTeacher": {
+        "value": 100,
+        "comment": "int32_t"
+      },
+      "m_nPersonaDataPublicLevel": {
+        "value": 92,
+        "comment": "int32_t"
+      },
+      "m_rank": {
+        "value": 68,
+        "comment": "MedalRank_t[6]"
+      },
+      "m_unMusicID": {
+        "value": 64,
+        "comment": "uint16_t"
+      },
+      "m_vecServerAuthoritativeWeaponSlots": {
+        "value": 112,
+        "comment": "C_UtlVectorEmbeddedNetworkVar<ServerAuthoritativeWeaponSlot_t>"
+      }
+    },
+    "comment": "CPlayerControllerComponent"
+  },
+  "CCSPlayer_ActionTrackingServices": {
+    "data": {
+      "m_bIsRescuing": {
+        "value": 68,
+        "comment": "bool"
+      },
+      "m_hLastWeaponBeforeC4AutoSwitch": {
+        "value": 64,
+        "comment": "CHandle<C_BasePlayerWeapon>"
+      },
+      "m_weaponPurchasesThisMatch": {
+        "value": 72,
+        "comment": "WeaponPurchaseTracker_t"
+      },
+      "m_weaponPurchasesThisRound": {
+        "value": 160,
+        "comment": "WeaponPurchaseTracker_t"
+      }
+    },
+    "comment": "CPlayerPawnComponent"
+  },
+  "CCSPlayer_BulletServices": {
+    "data": {
+      "m_totalHitsOnServer": {
+        "value": 64,
+        "comment": "int32_t"
+      }
+    },
+    "comment": "CPlayerPawnComponent"
+  },
+  "CCSPlayer_BuyServices": {
+    "data": {
+      "m_vecSellbackPurchaseEntries": {
+        "value": 64,
+        "comment": "C_UtlVectorEmbeddedNetworkVar<SellbackPurchaseEntry_t>"
+      }
+    },
+    "comment": "CPlayerPawnComponent"
+  },
+  "CCSPlayer_CameraServices": {
+    "data": {
+      "m_flDeathCamTilt": {
+        "value": 552,
+        "comment": "float"
+      }
+    },
+    "comment": "CCSPlayerBase_CameraServices"
+  },
+  "CCSPlayer_GlowServices": {
+    "data": {},
+    "comment": "CPlayerPawnComponent"
+  },
+  "CCSPlayer_HostageServices": {
+    "data": {
+      "m_hCarriedHostage": {
+        "value": 64,
+        "comment": "CHandle<C_BaseEntity>"
+      },
+      "m_hCarriedHostageProp": {
+        "value": 68,
+        "comment": "CHandle<C_BaseEntity>"
+      }
+    },
+    "comment": "CPlayerPawnComponent"
+  },
+  "CCSPlayer_ItemServices": {
+    "data": {
+      "m_bHasDefuser": {
+        "value": 64,
+        "comment": "bool"
+      },
+      "m_bHasHeavyArmor": {
+        "value": 66,
+        "comment": "bool"
+      },
+      "m_bHasHelmet": {
+        "value": 65,
+        "comment": "bool"
+      }
+    },
+    "comment": "CPlayer_ItemServices"
+  },
+  "CCSPlayer_MovementServices": {
+    "data": {
+      "m_StuckLast": {
+        "value": 1132,
+        "comment": "int32_t"
+      },
+      "m_bDesiresDuck": {
+        "value": 557,
+        "comment": "bool"
+      },
+      "m_bDuckOverride": {
+        "value": 556,
+        "comment": "bool"
+      },
+      "m_bHasWalkMovedSinceLastJump": {
+        "value": 601,
+        "comment": "bool"
+      },
+      "m_bInStuckTest": {
+        "value": 602,
+        "comment": "bool"
+      },
+      "m_bOldJumpPressed": {
+        "value": 1196,
+        "comment": "bool"
+      },
+      "m_bSpeedCropped": {
+        "value": 1136,
+        "comment": "bool"
+      },
+      "m_bUpdatePredictedOriginAfterDataUpdate": {
+        "value": 1236,
+        "comment": "bool"
+      },
+      "m_duckUntilOnGround": {
+        "value": 600,
+        "comment": "bool"
+      },
+      "m_fStashGrenadeParameterWhen": {
+        "value": 1212,
+        "comment": "GameTime_t"
+      },
+      "m_flDuckAmount": {
+        "value": 548,
+        "comment": "float"
+      },
+      "m_flDuckOffset": {
+        "value": 560,
+        "comment": "float"
+      },
+      "m_flDuckSpeed": {
+        "value": 552,
+        "comment": "float"
+      },
+      "m_flHeightAtJumpStart": {
+        "value": 1240,
+        "comment": "float"
+      },
+      "m_flJumpPressedTime": {
+        "value": 1200,
+        "comment": "float"
+      },
+      "m_flJumpUntil": {
+        "value": 1204,
+        "comment": "float"
+      },
+      "m_flJumpVel": {
+        "value": 1208,
+        "comment": "float"
+      },
+      "m_flLastDuckTime": {
+        "value": 576,
+        "comment": "float"
+      },
+      "m_flMaxFallVelocity": {
+        "value": 528,
+        "comment": "float"
+      },
+      "m_flMaxJumpHeightThisJump": {
+        "value": 1244,
+        "comment": "float"
+      },
+      "m_flOffsetTickCompleteTime": {
+        "value": 1224,
+        "comment": "float"
+      },
+      "m_flOffsetTickStashedSpeed": {
+        "value": 1228,
+        "comment": "float"
+      },
+      "m_flStamina": {
+        "value": 1232,
+        "comment": "float"
+      },
+      "m_flStuckCheckTime": {
+        "value": 616,
+        "comment": "float[64][2]"
+      },
+      "m_flWaterEntryTime": {
+        "value": 1144,
+        "comment": "float"
+      },
+      "m_nButtonDownMaskPrev": {
+        "value": 1216,
+        "comment": "uint64_t"
+      },
+      "m_nDuckJumpTimeMsecs": {
+        "value": 568,
+        "comment": "uint32_t"
+      },
+      "m_nDuckTimeMsecs": {
+        "value": 564,
+        "comment": "uint32_t"
+      },
+      "m_nJumpTimeMsecs": {
+        "value": 572,
+        "comment": "uint32_t"
+      },
+      "m_nLadderSurfacePropIndex": {
+        "value": 544,
         "comment": "int32_t"
       },
       "m_nOldWaterLevel": {
@@ -12301,5 +13606,3 @@
     "comment": null
   }
 }
-
-
